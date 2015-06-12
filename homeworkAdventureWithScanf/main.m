@@ -74,8 +74,8 @@ int main(int argc, const char * argv[]) {
                         return 0;
                         break;
                 }
-                VoldHealth = VoldHealth - rand()%10*4;
-                yourHealth = yourHealth - rand()%10*2;
+                VoldHealth = VoldHealth - arc4random()%10*4;
+                yourHealth = yourHealth - arc4random()%10*3;
                 if(VoldHealth >0 && yourHealth>0){
                     printf("\nVoldemort has %d hp left, You have %d\n",VoldHealth,yourHealth);
                 }
