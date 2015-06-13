@@ -12,11 +12,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
-        printf("%d",arc4random());
-        printf("%d",arc4random());
-        printf("%d",arc4random());
-        printf("%d",arc4random());
-        printf("%d",arc4random());
+       
         char user[100];
         //int k=-1;
         printf("Ok lets begin. Please enter your name to play this simulator: ");
